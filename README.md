@@ -23,7 +23,7 @@ header-includes: |
 
 Sie haben in der Vorlesung das Konzept von Auszeichnungssprachen kennengelernt und am Beispiel von XML erste Einblicke in die Arbeit mit Markupsprachen erhalten. In diesem Übungsblatt sollen sie die bisher erlernten Grundkenntnisse mit Hilfe eines Texteditors praktisch anwenden, um sich mit der Markupsprache XML vertraut zu machen. Laden Sie sich den Texteditor [Sublime Text](https://www.sublimetext.com/) herunter, mit welchem wir in diesem Kurs arbeiten werden.
 
-## Aufgabe 1: Welcher der folgenden Tags sind nach den Regeln der Wohlgeformtheit von XML valide und welche nicht? Begründen Sie ihre Entscheidung.
+## Aufgabe 1: Welcher der folgenden einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML valide und welche nicht? Begründen Sie ihre Entscheidung.
 
 &lt;Kurs&gt;
 &lt;dozEnt&gt;
@@ -40,7 +40,9 @@ Sie haben in der Vorlesung das Konzept von Auszeichnungssprachen kennengelernt u
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
-In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit welcher Sie Daten der Onlinevideothek Netflix darstellen. 
+In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit Sie die ersten drei Platzierungen dieser Bundesligatabelle darstellen. 
+
+![](./TableSoccer.png)
 
 
 Überprüfen Sie ihr XML-Dokument anschließend mit Hilfe eines Validators (http://www.utilities-online.info/xsdvalidation/) auf Wohlgeformtheit.
