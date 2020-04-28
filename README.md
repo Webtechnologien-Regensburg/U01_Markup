@@ -33,7 +33,7 @@ Welcher der folgenden einzelnen Tags sind nach den Regeln der Wohlgeformtheit vo
 
 In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit Sie die ersten drei Platzierungen dieser Fußballtabelle darstellen. 
 
-![](TableSoccer.PNG)
+![Fußball-Bundesliga Tablle](TableSoccer.PNG)
 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden.
 Überprüfen Sie ihr XML-Dokument anschließend mit Hilfe eines Validators (http://www.utilities-online.info/xsdvalidation/) auf Wohlgeformtheit.
