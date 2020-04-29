@@ -10,8 +10,8 @@ header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
     \fancyhf{}
-    \rhead{Mobile Apps für Android}
-    \lhead{Übungsaufgaben}
+    \rhead{Webtechnologien}
+    \lhead{Übungsblatt}
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{Webtechnologien}
