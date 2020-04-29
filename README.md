@@ -44,6 +44,10 @@ Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark
 
 
 
+
+
+
+
 *Abgabekriterien:*
 
 Laden Sie Ihre Antworten bis spätestens 11.5.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und verwenden Sie ein geeignetes Format.
