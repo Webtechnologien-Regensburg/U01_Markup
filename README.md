@@ -42,3 +42,15 @@ Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung d
 
 Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Falls Sie kein/e Netflix Abonnent/in sind, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben.
 
+
+
+*Abgabekriterien:*
+
+Laden Sie Ihre Antworten bis spätestens 11.5.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und verwenden Sie ein geeignetes Format.
+
+Der Name der Datei ergibt sich aus dem Präfix „Übung_HCI_SS18“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+
+ 
+
+Beispiel: **Übung_HCI_SS20_1_Max_Mustermann.zip**
+
