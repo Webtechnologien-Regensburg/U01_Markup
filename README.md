@@ -15,7 +15,7 @@ header-includes: |
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{Webtechnologien}
-      \lhead{Übungsblatt 1}}
+      \lhead{Übungsblatt}}
 ---
 
 
