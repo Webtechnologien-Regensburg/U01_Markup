@@ -40,7 +40,7 @@ Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung d
 
 ## Aufgabe 3:  NetflixXML
 
-Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Falls Sie kein/e Netflix Abonnent/in sind und somit die Struktur dieser Onlinevideothek nicht kennen, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben.
+Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Sie können Sie sich an folgender DTD orientieren (https://www.w3schools.com/xml/xml_dtd_intro.asp). Falls Sie kein/e Netflix Abonnent/in sind und somit die Struktur dieser Onlinevideothek nicht kennen, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben. Sie können Ihr XML-Dokument auf 40 Zeilen Code beschränken. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.xmlvalidation.com/) auf Wohlgeformtheit und Validität. 
 
 ------
 
