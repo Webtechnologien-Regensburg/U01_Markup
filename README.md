@@ -48,7 +48,7 @@ Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark
 
 Laden Sie Ihre Antworten bis spätestens 11.5.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und verwenden Sie geeignete Formate.
 
-Der Name der Datei ergibt sich aus dem Präfix „Übung_HCI_SS20“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+Der Name der Datei ergibt sich aus dem Präfix „Übung_WT_SS20“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
  
 
