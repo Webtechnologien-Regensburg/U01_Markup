@@ -52,5 +52,5 @@ Der Name der Datei ergibt sich aus dem Präfix „Übung_HCI_SS20“, der Nr. de
 
  
 
-Beispiel: **Übung_HCI_SS20_1_Max_Mustermann.zip**
+Beispiel: **Übung_WT_SS20_1_Max_Mustermann.zip**
 
