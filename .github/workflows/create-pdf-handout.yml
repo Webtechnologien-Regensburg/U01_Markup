@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: tlmgr install german
       - name: Build Document
-        run: pandoc --output=$CLASS_NAME$REPO_NAME.pdf Readme.md
+        run: pandoc --output=$CLASS_NAME$REPO_NAME.pdf README.md
       - name: Upload PDF
         uses: actions/upload-artifact@master
         with:
