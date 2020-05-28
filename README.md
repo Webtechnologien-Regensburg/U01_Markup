@@ -19,7 +19,7 @@ header-includes: |
 ---
 
 
-# 01 | Markup Hallo
+# 01 | Markup
 
 Sie haben in der Vorlesung das Konzept von Auszeichnungssprachen kennengelernt und am Beispiel von XML erste Einblicke in die Arbeit mit solchen Sprachen erhalten. In diesem Übungsblatt sollen Sie die bisher erlernten Grundkenntnisse mit Hilfe eines Texteditors praktisch anwenden, um sich mit der Markupsprache XML vertraut zu machen. Laden Sie sich dafür den kostenfreien Texteditor [Sublime Text](https://www.sublimetext.com/) (https://www.sublimetext.com/) herunter, mit welchem wir in diesem Kurs arbeiten werden.
 
