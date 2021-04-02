@@ -1,6 +1,6 @@
 ---
 title: Auszeichnungssprachen - Extensible Markup Language (XML)
-author: Martin Kocur
+author: Jakob Fehle
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -46,14 +46,14 @@ Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark
 
 *Abgabekriterien:*
 
-Laden Sie Ihre Antworten bis spätestens 11.5.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und geben Sie folgende Dateien ab:
+Laden Sie Ihre Antworten bis spätestens 22.04.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und geben Sie folgende Dateien ab:
 
 - Aufgabe 1: Ein PDF-Dokument
 - Aufgabe 2 und 3: Jeweils eine XML-Datei
 
-Der Name des zip-Ordners ergibt sich aus dem Präfix „Übung_WT_SS20“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+Der Name des zip-Ordners ergibt sich aus dem Präfix „Übung_WT_SS21“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
  
 
-Beispiel: **Übung_WT_SS20_1_Max_Mustermann.zip**
+Beispiel: **Übung_WT_SS21_1_Max_Mustermann.zip**
 
