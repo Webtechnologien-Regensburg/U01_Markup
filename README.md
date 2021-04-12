@@ -33,7 +33,7 @@ Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML valid
 
 In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die Struktur der folgenden Bundesligatabelle im Frauenfußball darstellen. 
 
-![Frauenfußball-Bundesligatabelle]("Tabelle Bundesliga Frauen .png")
+![Frauenfußball-Bundesligatabelle]("TabelleBundesligaFrauen.png")
 (Quelle: https://www.fussballdaten.de/)
 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden, so dass man mit Hilfe Ihrer XML eine solche Tabelle in einer beliebigen Applikation integrieren könnte.
