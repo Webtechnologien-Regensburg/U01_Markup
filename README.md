@@ -31,9 +31,9 @@ Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML valid
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
-In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die Struktur der folgenden Fußballtabelle darstellen. 
+In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die Struktur der folgenden Bundesligatabelle im Frauenfußball darstellen. 
 
-![Fußball-Bundesliga Tablle](TableSoccer.PNG)
+![Frauenfußball-Bundesligatabelle](Tabelle Bundesliga Frauen .png){#fig:Frauenfußball-Bundesligatabelle (Quelle: https://www.fussballdaten.de/)}
 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden, so dass man mit Hilfe Ihrer XML eine solche Tabelle in einer beliebigen Applikation integrieren könnte.
 Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.xmlvalidation.com/) auf Wohlgeformtheit. Um das zu testen, müssen Sie lediglich den XML-Code ihres Dokuments in das dafür vorgesehene Feld einfügen.
