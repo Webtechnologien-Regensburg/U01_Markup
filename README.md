@@ -36,11 +36,11 @@ In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die 
 ![Frauenfußball-Bundesligatabelle (Bild-Quelle: https://www.fussballdaten.de/)](TabelleBundesligaFrauen.png)
 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden, so dass man mit Hilfe Ihrer XML eine solche Tabelle in einer beliebigen Applikation integrieren könnte.
-Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.xmlvalidation.com/) auf Wohlgeformtheit. Um das zu testen, müssen Sie lediglich den XML-Code ihres Dokuments in das dafür vorgesehene Feld einfügen.
+Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.truugo.com/xml_validator/) auf Wohlgeformtheit. Um das zu testen, müssen Sie lediglich den XML-Code ihres Dokuments in das dafür vorgesehene Feld einfügen.
 
 ## Aufgabe 3:  NetflixXML
 
-Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Sie können sich an folgender DTD orientieren (https://www.w3schools.com/xml/xml_dtd_intro.asp). Falls Sie kein/e Netflix Abonnent/in sind und somit die Struktur dieser Onlinevideothek nicht kennen, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben. Sie können Ihr XML-Dokument auf 40 Zeilen Code beschränken. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.xmlvalidation.com/) auf Wohlgeformtheit und Validität. 
+Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Sie können sich an folgender DTD orientieren (https://www.w3schools.com/xml/xml_dtd_intro.asp). Falls Sie kein/e Netflix Abonnent/in sind und somit die Struktur dieser Onlinevideothek nicht kennen, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben. Sie können Ihr XML-Dokument auf 40 Zeilen Code beschränken. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.truugo.com/xml_validator/) auf Wohlgeformtheit und Validität. 
 
 ------
 
