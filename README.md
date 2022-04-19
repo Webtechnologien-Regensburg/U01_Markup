@@ -35,11 +35,11 @@ b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlg
 
 DTD:
 
-![](DTD.PNG){ height=8cm }
+![](DTD.PNG)
 
  XML:
 
-![](XML.PNG){ height=8cm } 
+![](XML.PNG) 
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
