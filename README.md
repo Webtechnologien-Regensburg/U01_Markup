@@ -69,7 +69,7 @@ DTD:
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
-In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die Struktur der folgenden Bundesligatabelle im Frauenfußball darstellen. 
+In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die Struktur der folgenden Bundesligatabelle im Frauenfußball darstellen.  
 
 ![Frauenfußball-Bundesligatabelle (Bild-Quelle: https://www.fussballdaten.de/)](TabelleBundesligaFrauen.png)
 
