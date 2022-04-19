@@ -33,38 +33,6 @@ a) Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML va
 
 b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlgeformtheit und Validität gegenüber der angegebenen DTD verletzt werden.
 
-DTD:
-```<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT musiksammlung (album)*>
-<!ATTLIST musiksammlung eigentuemer CDATA #REQUIRED>
-<!ELEMENT album ((interpret), albumtitel, songs) >
-<!ELEMENT songs (song)* >
-<!ELEMENT interpret (#PCDATA) >
-<!ELEMENT albumtitel (#PCDATA) >
-<!ELEMENT song (#PCDATA) >
-```
-
- XML:
-
-```<?xml version="1.0" encoding="UTF-8"?>
-1 <?xml version="1.0" encoding="UTF-8"?>
-2 <!DOCTYPE musiksammlung SYSTEM "musiksammlung.dtd"> 
-3 <musiksammlung eigentuemer="Max Mustermann">
-4 <album>
-5 	<interpret>The Beatles</interpret>
-6 	<albumtitel> Help!<songs> 
-7 	<song>Help!</song>
-8 	<song>The Night Before</song>
-9 	</albumtitel> 
-10 	</songs>
-11 </album>
-12 <album>
-13 <titel> Wanderlieder </titel> 
-14 <song>Schlaflieder</song> 
-15 von songs
-16 </album>
-17 </musiksammlung> 
-```
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
