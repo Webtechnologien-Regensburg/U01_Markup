@@ -31,7 +31,7 @@ a) Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML va
 
 
 
-b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlgeformtheit und Validität gegenüber der angegebenen DTD verletzt werden. Sie können die Zeilennummern verwenden, um die entsprechenden Stellen zu referenzieren.
+b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlgeformtheit und Validität gegenüber der angegebenen DTD verletzt werden. Sie können die Zeilennummern verwenden, um die entsprechenden Stellen zu referenzieren. \newpage
 
 DTD:
 
