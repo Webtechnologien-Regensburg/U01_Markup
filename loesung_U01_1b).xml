@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musiksammlung SYSTEM "musiksammlung.dtd">
+<musiksammlung eigentuemer="Max Meier">
+ <album>
+ <interpret>The Beatles</interpret>
+ <albumtitel> Help!<songs> …. nicht wohlgeformt: </albumtitel> fehlt
+ <song>Help!</song>
+ <song>The Night Before</song>
+ </albumtitel> … nicht wohlgeformt: </albumtitel> passt hier nicht
+ </songs>
+ </album>
+ <album> … nicht gültig: Albumtitel fehlt
+ <titel> Voodoo Lounge </titel> … nicht gültig: Element Titel nicht in DTD
+ <song>New Faces</song> … nicht gültig: Elemente song nur innerhalb
+ von songs
+ </album>
+</musiksammlung>

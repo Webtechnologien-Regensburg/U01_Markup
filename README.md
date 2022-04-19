@@ -1,6 +1,6 @@
 ---
 title: Auszeichnungssprachen - Extensible Markup Language (XML)
-author: Jakob Fehle
+author: Martin Kocur
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -23,11 +23,48 @@ header-includes: |
 
 Sie haben in der Vorlesung das Konzept von Auszeichnungssprachen kennengelernt und am Beispiel von XML erste Einblicke in die Arbeit mit solchen Sprachen erhalten. In diesem Übungsblatt sollen Sie die bisher erlernten Grundkenntnisse mit Hilfe eines Texteditors praktisch anwenden, um sich mit der Markupsprache XML vertraut zu machen. Laden Sie sich dafür den kostenfreien Texteditor [Visual Studio Code](https://code.visualstudio.com/) (https://code.visualstudio.com/) herunter, mit welchem wir in diesem Kurs arbeiten werden.
 
-## Aufgabe 1: XML-Wohlgeformheit 
+## Aufgabe 1: XML-Wohlgeformheit und Validität
 
-Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML valide und welche nicht? Begründen Sie ihre Entscheidung.
+a) Welche der einzelnen Tags sind nach den Regeln der Wohlgeformtheit von XML valide und welche nicht? Begründen Sie ihre Entscheidung.
 
-&lt;Kurs&gt; &lt;dozEnt&gt; &lt;Student/&gt; &lt;name&gt; &lt;Student Semester=3 &gt;&lt;Dozent alter="30"&gt; &lt;XMLelement&gt; &lt;_tag&gt; &lt;&gt; &lt;1anderesTag&gt; &lt;WebTech machtSpaß&gt; &lt;digital.humanities/&gt; 
+&lt;Kurs&gt; &lt;dozEnt&gt; &lt;Student/&gt; &lt;name&gt; &lt;Student Semester=3 &gt;&lt;Dozent alter="30"&gt; &lt;XMLelement&gt; &lt;_tag&gt; &lt;&gt; &lt;1anderesTag&gt; &lt;WebTech machtSpaß&gt; &lt;digital.humanities/&gt;
+
+
+
+b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlgeformtheit und Validität gegenüber der angegebenen DTD verletzt werden.
+
+DTD:
+```<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT musiksammlung (album)*>
+<!ATTLIST musiksammlung eigentuemer CDATA #REQUIRED>
+<!ELEMENT album ((interpret), albumtitel, songs) >
+<!ELEMENT songs (song)* >
+<!ELEMENT interpret (#PCDATA) >
+<!ELEMENT albumtitel (#PCDATA) >
+<!ELEMENT song (#PCDATA) >
+```
+
+ XML:
+
+```<?xml version="1.0" encoding="UTF-8"?>
+1 <?xml version="1.0" encoding="UTF-8"?>
+2 <!DOCTYPE musiksammlung SYSTEM "musiksammlung.dtd"> 
+3 <musiksammlung eigentuemer="Max Mustermann">
+4 <album>
+5 	<interpret>The Beatles</interpret>
+6 	<albumtitel> Help!<songs> 
+7 	<song>Help!</song>
+8 	<song>The Night Before</song>
+9 	</albumtitel> 
+10 	</songs>
+11 </album>
+12 <album>
+13 <titel> Wanderlieder </titel> 
+14 <song>Schlaflieder</song> 
+15 von songs
+16 </album>
+17 </musiksammlung> 
+```
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
@@ -38,22 +75,18 @@ In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden, so dass man mit Hilfe Ihrer XML eine solche Tabelle in einer beliebigen Applikation integrieren könnte.
 Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.truugo.com/xml_validator/) auf Wohlgeformtheit. Um das zu testen, müssen Sie lediglich den XML-Code ihres Dokuments in das dafür vorgesehene Feld einfügen.
 
-## Aufgabe 3:  NetflixXML
-
-Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie sich Regeln, die für NetflixXML gelten sollen. Sie können sich an folgender DTD orientieren (https://www.w3schools.com/xml/xml_dtd_intro.asp). Falls Sie kein/e Netflix Abonnent/in sind und somit die Struktur dieser Onlinevideothek nicht kennen, dann überlegen Sie sich, wie Sie selbst eine Onlinevideothek strukturell für den Nutzer aufbauen würden. Es ist völlig ausreichend, wenn Sie pro Kategorie ein Filmbeispiel angeben. Sie können Ihr XML-Dokument auf 40 Zeilen Code beschränken. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.truugo.com/xml_validator/) auf Wohlgeformtheit und Validität. 
-
 ------
 
 *Abgabekriterien:*
 
-Laden Sie Ihre Antworten bis spätestens 22.04.2021 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und geben Sie folgende Dateien ab:
+Laden Sie Ihre Antworten bis spätestens 02.05.2022 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch. Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und geben Sie folgende Dateien ab:
 
 - Aufgabe 1: Ein PDF-Dokument
-- Aufgabe 2 und 3: Jeweils eine XML-Datei
+- Aufgabe 2: Eine XML-Datei
 
-Der Name des zip-Ordners ergibt sich aus dem Präfix „Übung_WT_SS21“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+Der Name des zip-Ordners ergibt sich aus dem Präfix „Übung_WT_SS22“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
  
 
-Beispiel: **Übung_WT_SS21_1_Max_Mustermann.zip**
+Beispiel: **Übung_WT_SS22_1_Max_Mustermann.zip**
 
