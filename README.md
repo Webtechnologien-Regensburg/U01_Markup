@@ -39,7 +39,7 @@ DTD:
 
  XML:
 
-![XML Code](XML.PNG)
+![](XML.PNG){height = 8cm} 
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
