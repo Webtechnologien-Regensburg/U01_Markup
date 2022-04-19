@@ -35,11 +35,11 @@ b) Zeigen Sie anhand des unten stehenden XML-Dokuments, an welchen Stellen Wohlg
 
 DTD:
 
-![](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\U01_Markup\DTD.PNG)
+![](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\U01_Markup\DTD.PNG){height=12cm}
 
  XML:
 
-![](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\U01_Markup\XML.PNG)
+![XML Code](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\U01_Markup\XML.PNG){height=12cm}
 
 ## Aufgabe 2: Erstellen einer XML-Datei
 
