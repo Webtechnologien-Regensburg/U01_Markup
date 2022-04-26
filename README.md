@@ -53,11 +53,12 @@ Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung d
 ## Aufgabe 3: NetflixXML
 
 Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter
-Form darstellt. Bekanntlich bietet Netflix die Möglichkeit, Filme und
+Form darstellt. Fügen Sie dem XML-Dokument eine einfache DTD hinzu und überlegen Sie
+sich Regeln, die für NetflixXML gelten sollen. Sie können sich an folgender DTD orientieren
+(https://www.w3schools.com/xml/xml_dtd_intro.asp). Bekanntlich bietet Netflix die Möglichkeit, Filme und
 Serien zu konsumieren. Berücksichtigen Sie zudem, dass Filme und Serien
 verschiedenen Genres zugeordnet werden. Es ist völlig ausreichend,
-wenn Sie pro Kategorie zwei Filmbeispiele angeben. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators
-(https://www.xmlvalidation.com/) auf Wohlgeformtheit und Validität.
+wenn Sie pro Kategorie zwei Filmbeispiele angeben. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.xmlvalidation.com/) auf Wohlgeformtheit und Validität.
 
 ------
 
