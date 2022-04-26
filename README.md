@@ -50,6 +50,15 @@ In dieser Aufgabe sollen Sie eine einfache XML-Datei erstellen, mit der Sie die 
 Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung der einzelnen Mannschaften in Ihrer XML abzubilden, so dass man mit Hilfe Ihrer XML eine solche Tabelle in einer beliebigen Applikation integrieren könnte.
 Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators (https://www.truugo.com/xml_validator/) auf Wohlgeformtheit. Um das zu testen, müssen Sie lediglich den XML-Code ihres Dokuments in das dafür vorgesehene Feld einfügen.
 
+## Aufgabe 3: NetflixXML
+
+Schreiben Sie ein kleines XML-Dokument, das die Onlinevideothek Netflix in stark vereinfachter
+Form darstellt. Bekanntlich bietet Netflix die Möglichkeit, Filme und
+Serien zu konsumieren. Berücksichtigen Sie zudem, dass Filme und Serien
+verschiedenen Genres zugeordnet werden. Es ist völlig ausreichend,
+wenn Sie pro Kategorie zwei Filmbeispiele angeben. Überprüfen Sie Ihr XML-Dokument anschließend mit Hilfe eines Validators
+(https://www.xmlvalidation.com/) auf Wohlgeformtheit und Validität.
+
 ------
 
 *Abgabekriterien:*
@@ -57,7 +66,7 @@ Betrachten Sie die Tabelle und versuchen Sie alle Bestandteile der Darstellung d
 Laden Sie Ihre Antworten bis spätestens 02.05.2022 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch. Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und geben Sie folgende Dateien ab:
 
 - Aufgabe 1: Ein PDF-Dokument
-- Aufgabe 2: Eine XML-Datei
+- Aufgabe 2 und 3: Jeweils eine XML-Datei
 
 Der Name des zip-Ordners ergibt sich aus dem Präfix „Übung_WT_SS22“, der Nr. des Übungsblattes, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
